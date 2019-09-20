@@ -1,0 +1,84 @@
+{
+  "Planet": [
+    {
+      "name": "Earth",
+      "radius": 10000,
+      "mass": 1,
+      "rotationPeriod": 1,
+      "axialTilt": 20.0,
+      "orbit": {
+        "centralObject": "Testearth",
+        "aphelion": 9.0,
+        "perihelion": 1.0,
+        "semiMajorAxis": 0.1,
+        "orbitalPeriod": 365.0,
+        "averageOrbitalSpeed": 29.78,
+        "inclination": 20.0000,
+		"longitudeOfAscendingNode": 174.9,
+		"argumentOfPerihelion": 288.1,
+		"epoch": "J2000"
+      }
+    }
+  ],
+  "Satellite": [
+    {
+      "name": "Moon",
+      "radius": 5000,
+      "mass": 0.0123,
+      "rotationPeriod": 30,
+      "axialTilt": 0.0,
+      "orbit": {
+        "centralObject": "Earth",
+        "aphelion": 2.5,
+        "perihelion": 0.2,
+        "semiMajorAxis": 0.00257,
+        "orbitalPeriod": 30,
+        "averageOrbitalSpeed": 1.022,
+        "inclination": 20.0,
+		"longitudeOfAscendingNode": 90.0,
+		"argumentOfPerihelion": 0.0,
+		"epoch": "J2000"
+      }
+    }
+  ],
+  "Ring": [
+    {
+      "name": "Testrings",
+      "radius": 11000.0,
+      "mass": 0.0,
+      "rotationPeriod": 1.0,
+      "axialTilt": 10.0,
+      "orbit": {
+        "centralObject": "Earth",
+        "aphelion": 0.0,
+        "perihelion": 0.0,
+        "semiMajorAxis": 0.0,
+        "orbitalPeriod": 0.0,
+        "averageOrbitalSpeed": 0.0,
+        "inclination": 0.0,
+		"longitudeOfAscendingNode": 0.0,
+		"argumentOfPerihelion": 0.0,
+		"epoch": "J2000"
+      }
+    }
+  ],
+  "Star": {
+    "name": "Testearth",
+    "radius": 3000000,
+    "rotationPeriod": 10,
+    "mass": 333000,
+    "axialTilt": 0.0,
+    "orbit": {
+      "centralObject": "Testearth",
+      "aphelion": 0.0,
+      "perihelion": 0.0,
+      "semiMajorAxis": 0.0,
+      "orbitalPeriod": 0.0,
+      "averageOrbitalSpeed": 0.0,
+      "inclination": 0.0,
+	  "longitudeOfAscendingNode": 0.0,
+	  "argumentOfPerihelion": 0.0,
+	  "epoch": "J2000"
+    }
+  }
+}

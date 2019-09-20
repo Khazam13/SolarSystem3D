@@ -1,0 +1,27 @@
+{
+  "Planet": [
+  ],
+  "Satellite": [
+  ],
+  "Ring": [
+  ],
+  "Star": {
+    "name": "Testearth",
+    "radius": 300000,
+    "rotationPeriod": 10,
+    "mass": 333000,
+    "axialTilt": 0.0,
+    "orbit": {
+      "centralObject": "Testearth",
+      "aphelion": 0.0,
+      "perihelion": 0.0,
+      "semiMajorAxis": 0.0,
+      "orbitalPeriod": 0.0,
+      "averageOrbitalSpeed": 0.0,
+      "inclination": 0.0,
+	  "longitudeOfAscendingNode": 0.0,
+	  "argumentOfPerihelion": 0.0,
+	  "epoch": "J2000"
+    }
+  }
+}

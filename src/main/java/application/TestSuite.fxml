@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane fx:id="pane" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TestSuiteController">
+   <columnConstraints>
+      <ColumnConstraints maxWidth="122.0" minWidth="0.0" prefWidth="122.0" />
+      <ColumnConstraints maxWidth="101.0" minWidth="0.0" prefWidth="51.0" />
+      <ColumnConstraints maxWidth="166.0" minWidth="63.0" prefWidth="63.0" />
+      <ColumnConstraints maxWidth="166.0" minWidth="65.0" prefWidth="96.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" />
+      <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" />
+      <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" />
+      <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" />
+      <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" />
+      <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" />
+      <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" />
+      <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" />
+   </rowConstraints>
+   <children>
+      <MenuBar fx:id="menu" prefHeight="25.0" prefWidth="256.0" GridPane.columnSpan="2147483647">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#close" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Test">
+              <items>
+                <MenuItem mnemonicParsing="false" text="3D" />
+                  <MenuItem mnemonicParsing="false" text="Chart" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="modelViewButton" mnemonicParsing="false" onAction="#modelViewAction" prefHeight="25.0" prefWidth="121.0" text="Save Image" GridPane.rowIndex="3" />
+      <Button fx:id="startStopButton" mnemonicParsing="false" onAction="#startStopAction" prefHeight="25.0" prefWidth="51.0" text="Start/Stop" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button fx:id="closeButton" mnemonicParsing="false" onAction="#handleCloseButtonAction" prefHeight="25.0" prefWidth="63.0" text="Close" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Button fx:id="solarSystemButton" mnemonicParsing="false" onAction="#solarSystemViewAction" prefHeight="25.0" prefWidth="100.0" text="Solar System" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Canvas fx:id="canvas" height="257.0" onMouseClicked="#drawOnCanvas" width="252.0" GridPane.columnSpan="2147483647" GridPane.hgrow="ALWAYS" GridPane.rowIndex="10" GridPane.vgrow="ALWAYS" />
+      <AmbientLight fx:id="light" color="CHARTREUSE" focusTraversable="true" onKeyPressed="#toggleLight" onKeyReleased="#toggleLight" onKeyTyped="#toggleLight" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" GridPane.rowSpan="2147483647">
+         <effect>
+            <Glow />
+         </effect></AmbientLight>
+      <Box fx:id="box" depth="20.0" height="20.0" onMouseClicked="#changeLight" rotate="-32.0" width="20.0" GridPane.rowIndex="4" />
+      <Slider fx:id="orbitSpeedSlider" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="10" />
+      <Label fx:id="orbitSpeedCaption" text="Orbit Speed" GridPane.rowIndex="10" />
+      <Label fx:id="orbitSpeedValue" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+      <Button fx:id="testSystemButton" mnemonicParsing="false" onAction="#testSystemViewAction" prefHeight="25.0" prefWidth="100.0" text="Test System" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Button fx:id="eventTestButton" mnemonicParsing="false" onAction="#eventTestAction" prefHeight="25.0" prefWidth="100.0" text="Event Test" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+   </children>
+</GridPane>

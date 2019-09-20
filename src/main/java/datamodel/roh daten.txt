@@ -1,0 +1,50 @@
+
+Die Bahnelemente bei elliptischer Bahn
+Zentralkörperspezifische Angaben sind, wie in der Abbildung oben, in der Reihenfolge Sonne/Erde durch Schrägstrich markiert.
+
+Gestaltelemente
+Die Beschreibung der Gestalt der Bahnkurve erfordert zwei Werte, die die Form und die Größe festlegen:
+
+Die numerische Exzentrizität  e.
+Die große Halbachse  a.
+Daraus abgeleitet werden:
+
+Der Halbparameter  p. Mit ihm ergibt sich die Parameterdarstellung der Keplerbahn: r(\varphi )=r(p,e).
+Die Periapsisdistanz r_min: Entfernung des Hauptscheitels zum Brennpunkt.
+Der Exzentrizitätswinkel Phi = arcsin e
+Lageelemente
+Die Lage im Raum relativ zu einem Referenzsystem wird durch drei Parameter bestimmt:
+
+die Inklination  i: Das ist der Winkel der Bahnebene zur Referenzebene.
+den Winkel des aufsteigenden Knotens (Länge/Rektaszension des Knotens) Omega: Der Winkel von der Referenzebenen-Bezugsrichtung zum aufsteigenden Knoten (an der Schnittlinie Referenzebene-Bahnebene).
+das Argument der Periapsis omega : Der Winkel vom aufsteigenden Knoten zur Periapsis (zentrumsnächster Punkt der Bahn auf der großen Halbachse).
+Zeitbezug
+Der Zeitbezug legt den Zeitnullpunkt fest:
+
+Epoche t des Periapsisdurchgangs des Körpers.
+Abgeleitete Größen
+
+Mittlere Bewegung n: mittlere Winkelgeschwindigkeit der mittleren Anomalie M
+
+
+
+mercury
+
+Sidereal rotation period
+58.646 d
+1407.5 h[4]
+
+Inclination	
+7.005° to ecliptic
+3.38° to Sun's equator
+6.34° to invariable plane[3]
+
+
+venus
+Inclination	
+3.39458° to ecliptic
+3.86° to Sun's equator
+2.19° to invariable plane[5]
+
+
+0.99726968 d[1

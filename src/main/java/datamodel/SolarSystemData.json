@@ -1,0 +1,331 @@
+{
+  "Planet": [
+    {
+      "name": "Mercury",
+      "radius": 2439.7,
+      "mass": 0.055,
+      "rotationPeriod": 58.646,
+      "axialTilt": 2.04,
+      "orbit": {
+        "centralObject": "Sun",
+        "aphelion": 0.466697,
+        "perihelion": 0.307499,
+        "semiMajorAxis": 0.387098,
+        "orbitalPeriod": 87.969,
+        "averageOrbitalSpeed": 47.87,
+        "inclination": 3.38,
+		"longitudeOfAscendingNode": 48.331,
+		"argumentOfPerihelion": 29.124,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Venus",
+      "radius": 6051.8,
+      "mass": 0.815,
+      "rotationPeriod": 243.025,
+      "axialTilt": 177.36,
+      "orbit": {
+        "centralObject": "Sun",
+        "aphelion": 0.728213,
+        "perihelion": 0.71844,
+        "semiMajorAxis": 0.723332,
+        "orbitalPeriod": 224.701,
+        "averageOrbitalSpeed": 35.02,
+        "inclination": 3.86,
+		"longitudeOfAscendingNode": 76.680,
+		"argumentOfPerihelion": 54.884,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Earth",
+      "radius": 6371,
+      "mass": 1,
+      "rotationPeriod": 0.99726968,
+      "axialTilt": 23.4392811,
+      "orbit": {
+        "centralObject": "Sun",
+        "aphelion": 1.01671388,
+        "perihelion": 0.98329134,
+        "semiMajorAxis": 1.00000102,
+        "orbitalPeriod": 365.256363004,
+        "averageOrbitalSpeed": 29.78,
+        "inclination": 0.00005,
+		"longitudeOfAscendingNode": 348.73936,
+		"argumentOfPerihelion": 114.20783,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Mars",
+      "radius": 3389.5,
+      "mass": 0.107,
+      "rotationPeriod": 1.025957,
+      "axialTilt": 25.19,
+      "orbit": {
+        "centralObject": "Sun",
+        "aphelion": 1.665861,
+        "perihelion": 1.381497,
+        "semiMajorAxis": 1.523679,
+        "orbitalPeriod": 686.971,
+        "averageOrbitalSpeed": 24.007,
+        "inclination": 5.65,
+		"longitudeOfAscendingNode": 49.558,
+		"argumentOfPerihelion": 286.502,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Jupiter",
+      "radius": 69911,
+      "mass": 317.8,
+      "rotationPeriod": 0.413194,
+      "axialTilt": 3.13,
+      "orbit": {
+        "centralObject": "Sun",
+        "aphelion": 5.458104,
+        "perihelion": 4.950429,
+        "semiMajorAxis": 5.2044,
+        "orbitalPeriod": 4332.59,
+        "averageOrbitalSpeed": 13.07,
+        "inclination": 6.09,
+		"longitudeOfAscendingNode": 100.464,
+		"argumentOfPerihelion": 273.867,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Saturn",
+      "radius": 58232,
+      "mass": 95.159,
+      "rotationPeriod": 0.439583,
+      "axialTilt": 26.73,
+      "orbit": {
+        "centralObject": "Sun",
+        "aphelion": 10.1238,
+        "perihelion": 9.0412,
+        "semiMajorAxis": 9.5826,
+        "orbitalPeriod": 10759.22,
+        "averageOrbitalSpeed": 9.68,
+        "inclination": 5.51,
+		"longitudeOfAscendingNode": 113.665,
+		"argumentOfPerihelion": 339.392,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Uranus",
+      "radius": 25362,
+      "mass": 14.536,
+      "rotationPeriod": 0.718056,
+      "axialTilt": 97.77,
+      "orbit": {
+        "centralObject": "Sun",
+        "aphelion": 20.11,
+        "perihelion": 18.33,
+        "semiMajorAxis": 19.2184,
+        "orbitalPeriod": 30688.5,
+        "averageOrbitalSpeed": 6.80,
+        "inclination": 6.48,
+		"longitudeOfAscendingNode": 74.006,
+		"argumentOfPerihelion": 96.998857,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Neptune",
+      "radius": 24622,
+      "mass": 17.147,
+      "rotationPeriod": 0.670833,
+      "axialTilt": 28.32,
+      "orbit": {
+        "centralObject": "Sun",
+        "aphelion": 30.33,
+        "perihelion": 29.81,
+        "semiMajorAxis": 30.11,
+        "orbitalPeriod": 60182,
+        "averageOrbitalSpeed": 5.43,
+        "inclination": 6.43,
+		"longitudeOfAscendingNode": 131.784,
+		"argumentOfPerihelion": 276.336,
+		"epoch": "J2000"
+      }
+    }
+  ],
+  "Satellite": [
+    {
+      "name": "Moon",
+      "radius": 1737.1,
+      "mass": 0.0123,
+      "rotationPeriod": 27.321661,
+      "axialTilt": 6.687,
+      "orbit": {
+        "centralObject": "Earth",
+        "aphelion": 0.00270993,
+        "perihelion": 0.00242383,
+        "semiMajorAxis": 0.00257,
+        "orbitalPeriod": 27.321661,
+        "averageOrbitalSpeed": 1.022,
+        "inclination": 3.38,
+		"longitudeOfAscendingNode": 0.0,
+		"argumentOfPerihelion": 0.0,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Io",
+      "radius": 1821,
+      "mass": 0.0,
+      "rotationPeriod": 1.769,
+      "axialTilt": 0,
+      "orbit": {
+        "centralObject": "Jupiter",
+        "aphelion": 0.0028195,
+        "perihelion": 0.0028195,
+        "semiMajorAxis": 0.0,
+        "orbitalPeriod": 1.769,
+        "averageOrbitalSpeed": 0.0,
+        "inclination": -3.13,
+		"longitudeOfAscendingNode": 0.0,
+		"argumentOfPerihelion": 0.0,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Europa",
+      "radius": 1561,
+      "mass": 0.0,
+      "rotationPeriod": 3.55,
+      "axialTilt": 0,
+      "orbit": {
+        "centralObject": "Jupiter",
+        "aphelion": 0.1144860,
+        "perihelion": 0.1144860,
+        "semiMajorAxis": 0.0,
+        "orbitalPeriod": 3.55,
+        "averageOrbitalSpeed": 0.0,
+        "inclination": -3.13,
+		"longitudeOfAscendingNode": 0.0,
+		"argumentOfPerihelion": 0.0,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Ganymede",
+      "radius": 2631,
+      "mass": 0.0,
+      "rotationPeriod": 7.155,
+      "axialTilt": 0,
+      "orbit": {
+        "centralObject": "Jupiter",
+        "aphelion": 0.3271552,
+        "perihelion": 0.3271552,
+        "semiMajorAxis": 0.0,
+        "orbitalPeriod": 7.155,
+        "averageOrbitalSpeed": 0.0,
+        "inclination": -3.13,
+		"longitudeOfAscendingNode": 0.0,
+		"argumentOfPerihelion": 0.0,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Callisto",
+      "radius": 2410,
+      "mass": 0.0,
+      "rotationPeriod": 16.689,
+      "axialTilt": 0,
+      "orbit": {
+        "centralObject": "Jupiter",
+        "aphelion": 0.552585,
+        "perihelion": 0.552585,
+        "semiMajorAxis": 0.0,
+        "orbitalPeriod": 16.689,
+        "averageOrbitalSpeed": 0.0,
+        "inclination": -3.13,
+		"longitudeOfAscendingNode": 0.0,
+		"argumentOfPerihelion": 0.0,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Titan",
+      "radius": 2575,
+      "mass": 0.0,
+      "rotationPeriod": 15.945,
+      "axialTilt": 1.942,
+      "orbit": {
+        "centralObject": "Saturn",
+        "aphelion": 0.008405935,
+        "perihelion": 0.007928923,
+        "semiMajorAxis": 0.0,
+        "orbitalPeriod": 15.945,
+        "averageOrbitalSpeed": 0.0,
+        "inclination": -26.73,
+		"longitudeOfAscendingNode": 0.0,
+		"argumentOfPerihelion": 0.0,
+		"epoch": "J2000"
+      }
+    }
+  ],
+  "Ring": [
+    {
+      "name": "Saturnrings",
+      "radius": 140180.0,
+      "mass": 0.0,
+      "rotationPeriod": 100.1,
+      "axialTilt": 26.73,
+      "orbit": {
+        "centralObject": "Saturn",
+        "aphelion": 10.1238,
+        "perihelion": 0.0,
+        "semiMajorAxis": 0.0,
+        "orbitalPeriod": 0.0,
+        "averageOrbitalSpeed": 0.0,
+        "inclination": 0.0,
+		"longitudeOfAscendingNode": 0.0,
+		"argumentOfPerihelion": 0.0,
+		"epoch": "J2000"
+      }
+    },
+    {
+      "name": "Uranusrings",
+      "radius": 30180.0,
+      "mass": 0.0,
+      "rotationPeriod": 0.239583,
+      "axialTilt": 97.77,
+      "orbit": {
+        "centralObject": "Uranus",
+        "aphelion": 10.1238,
+        "perihelion": 0.0,
+        "semiMajorAxis": 0.0,
+        "orbitalPeriod": 0.0,
+        "averageOrbitalSpeed": 0.0,
+        "inclination": 0.0,
+		"longitudeOfAscendingNode": 0.0,
+		"argumentOfPerihelion": 0.0,
+		"epoch": "J2000"
+      }
+    }
+  ],
+  "Star": {
+    "name": "Sun",
+    "radius": 696342,
+    "mass": 333000,
+    "rotationPeriod": 25.05,
+    "axialTilt": 0.0,
+    "orbit": {
+      "centralObject": "Sun",
+      "aphelion": 0.0,
+      "perihelion": 0.0,
+      "semiMajorAxis": 0.0,
+      "orbitalPeriod": 0.0,
+      "averageOrbitalSpeed": 0.0,
+      "inclination": 0.0,
+	  "longitudeOfAscendingNode": 0.0,
+	  "argumentOfPerihelion": 0.0,
+	  "epoch": "J2000"
+    }
+  }
+}

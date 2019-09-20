@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="datamodel/TestSystemData2.json|datamodel/roh daten.txt" kind="src" path="src/main/java"/>
+	<classpathentry excluding="2k_earth_clouds.jpg|2k_earth_daymap.jpg|2k_earth_nightmap.jpg|2k_earth_normal_map.tif|2k_earth_specular_map.tif|2k_saturnrings_quads.png|2k_stars.jpg|2k_stars_milky_way.jpg|2k_venus_surface.jpg|Cassini/Cassini_66.blend|Cassini/Cassini_66.mtl|Cassini/Cassini_Huygens_03.blend|Cassini/Cassini_no_Huygens_03.blend|Cassini/cassini.stl|Cassini/texture/Thumbs.db|Thumbs.db|saturn_rings2.png|saturn_rings_alpha.png" kind="src" path="src/main/resources"/>
+	<classpathentry kind="lib" path="libs/jimObjModelImporterJFX.jar"/>
+	<classpathentry kind="lib" path="libs/json-simple-1.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX13"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
